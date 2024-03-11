@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2024-03-11T11:46:18.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="NKvhTGk9IIvZim09MTzX" version="24.0.4" type="device">
+  <diagram name="Página-1" id="ft79Ye0ylGg8hZjNSpqT">
+    <mxGraphModel dx="1100" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="660" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="200" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-3" value="Foto" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-4" value="nome" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="205" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-7" value="Redes Sociais" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="760" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-8" value="Sobre mim" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="310" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-9" value="Formação aca&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Sobre%20mim%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22125%22%20y%3D%22300%22%20width%3D%22150%22%20height%3D%22140%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;demica" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="480" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-10" value="Contato" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="600" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-14" value="Meus Projetos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-15" value="Habilidades Técnicas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="410" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rBmmmgROBzAOpGsBHQxX-16" value="Competencias" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="220" width="360" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

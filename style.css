@@ -4,12 +4,25 @@
 font-style:normal ;
 font-weight:normal ;
 }
-*{font-family:Carving;}
-header{
-
-
-
-
-
-
+*{font-family:Carving;
+margin:0 ;
+padding: 0;
+box-sizing:border-box;}
+body{
+background-color:#081b29 ;
+color: #FF5F1F;
 }
+.header{
+    position:fixed ;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+background:orangered ;
+display:flex ;
+justify-content: space-between;
+align-items:center ;
+z-index: 100;
+}
+
+

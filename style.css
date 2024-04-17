@@ -28,10 +28,24 @@ z-index: 100;
 
 }
 .logo{
+   position: relative;
     font-size: 25px;
 color: #ededed;
 text-decoration: none;
 font-weight: 600;
+
+}
+
+.logo::before{
+content: '';
+position: absolute;
+top: 0%;
+right: 0%;
+width: 100%;
+height: 100%;
+animation: mostrarDireita 1s ease-in-out forwards ;
+animation-delay: .3s ;
+background: #081b29;
 
 }
 .navbar a {
@@ -41,11 +55,16 @@ text-decoration: none;
 font-weight: 500;
 margin-left: 35px;
 transition: 0.3s;
+display: inline-block;
 }
 .navbar a:hover,
 .navbar a.active{
 color: #08abf0;
 
+
+}
+.navbar a:hover{
+transform: scale(1.35);
 
 }
 .home{
@@ -61,22 +80,81 @@ max-width: 600px;
 font-size:56px;
 font-weight: 700;
 line-height: 1.2;
+position: relative;
 }
+.conteudo-home h1::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    animation: mostrarDireita 1s ease-in-out forwards ;
+    animation-delay: 1s ;
+    background: #081b29;}
+    
 .conteudo-home h3{
-font-size: 32px;
+position: relative;
+    font-size: 32px;
 font-weight: 700;
 color:#08abf0 ;
 }
+
+.conteudo-home h3::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    animation: mostrarDireita 1s ease-in-out forwards ;
+    animation-delay: 1.3s ;
+    background: #081b29;}
 .conteudo-home p{
-font-size: 16px;
+position: relative;
+    font-size: 16px;
 margin: 20px 0 40px;
 }
+.conteudo-home p::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    animation: mostrarDireita 1s ease-in-out forwards ;
+    animation-delay: 1.6s ;
+    background: #081b29;}
 .conteudo-home .caixadebotao{
-display: flex;
+position: relative;
+ display: flex;
 justify-content: space-between;
-width: 345 px;
+width: 345px;
 height: 50px;
 }
+.conteudo-home .caixadebotao::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    animation: mostrarDireita 1s ease-in-out forwards ;
+    animation-delay: 1.9s ;
+    background:#081b29;
+    z-index: 2;
+    }
+.conteudo-home::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    animation: mostrarDireita 1s ease-in-out forwards ;
+    animation-delay: 1s ;
+    background: #081b29;
+    }
 .caixadebotao a{
 position: relative;
     display: inline-flex;
@@ -94,20 +172,104 @@ font-weight:600 ;
 letter-spacing: 1px;
 z-index: 1;
 color: #08abf0;
+overflow: hidden;
+transition: .5s;
 }
+
+.caixadebotao a:hover{
+    color: #081b29;
+    }
 .caixadebotao a:before{
 content: '';
 position: absolute;
 top: 0;
 left: 0;
-width: 100%;
+width: 0%;
 height: 100%;
-background-color: ;
+background-color:#08abf0 ;
 z-index:-1;
+transition: .5s;
+
 }
-.caixadebotao a:hover:before{
 
+.caixadebotao a:hover:before {
+    width: 100%;
+}
 
+.redes_sociais{
 
+position: absolute;
+bottom: 120px;
+width: 170px;
+display: flex;
+justify-content: space-between;
+}
+.redes_sociais::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    animation: mostrarDireita 1s ease-in-out forwards ;
+    animation-delay: 2.5s ;
+    background: #081b29;
+    z-index: 2;
+    }
+.redes_sociais a {
+position: relative;
+ display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+background: transparent;  
+border: 2px solid #08abf0;
+border-radius: 50%;
+font-size: 20px;
+color: #08abf0;
+text-decoration: none;
+z-index: 1;
+overflow: hidden;
+transition: .5s;
+}
+.redes_sociais a::before{
+content:'';
+position: absolute;
+top: 0;
+left: 0;
+width: 0%;
+height: 100%;
+z-index: -1;
+transition: .5s;
+background: #08abf0;
+}
+.redes_sociais a:hover::before{
+width: 100%;
 
+}
+.redes_sociais a:hover{
+    color: #081b29;
+}
+video{
+width:50%;
+margin-left: 20%;
+animation: flutuar 2s ease-in-out infinite alternate ;
+position: relative;
+}
+@keyframes flutuar{
+0%{
+top: 0;
+}
+100%{
+top: 30px;
+}
+}
+@keyframes mostrarDireita{
+0%{
+    width: 100%;
+}
+    100%{
+    width:0;
+}
 }

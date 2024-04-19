@@ -333,3 +333,11 @@ section.especialidades .flex{
 gap: 60px;
 
 }
+
+img{
+
+    width: 55%;
+margin-left: 300px;
+animation: flutuar 2s ease-in-out infinite alternate;
+position: relative;
+}

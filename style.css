@@ -9,7 +9,7 @@ margin:0 ;
 padding: 0;
 box-sizing:border-box;}
 body{
-
+background-color:#081b29 ;
 color: #ededed;
 
 
@@ -88,9 +88,6 @@ height: 100vh;
 display: flex;
 align-items: center;
 padding: 0 10%;
-background: url(/Design\ sem\ nome.png) no-repeat;
-background-position: center;
-background-size: cover;
 }
 .conteudo-home{
 max-width: 600px;
@@ -216,6 +213,7 @@ transition: .5s;
 }
 
 .redes_sociais{
+
 position: absolute;
 bottom: 120px;
 width: 170px;
@@ -236,7 +234,7 @@ justify-content: space-between;
     z-index: 2;
     }
 .redes_sociais a {
-    position: relative;
+position: relative;
  display: inline-flex;
 justify-content: center;
 align-items: center;
@@ -270,9 +268,20 @@ width: 100%;
 .redes_sociais a:hover{
     color: #081b29;
 }
-
-
-
+video{
+width:50%;
+margin-left: 20%;
+animation: flutuar 2s ease-in-out infinite alternate ;
+position: relative;
+}
+@keyframes flutuar{
+0%{
+top: 0;
+}
+100%{
+top: 30px;
+}
+}
 @keyframes mostrarDireita{
 0%{
     width: 100%;
@@ -325,34 +334,10 @@ gap: 60px;
 
 }
 
-.especialidades{
-background: #081b29;
+img{
 
-}
-
-section.sobre-mim{
-padding: 40px 4%;
-background: #081b29;
-}
-section.sobre-mim .flex{
-align-items: center;
-gap: 60px;
-
-
-}
-.sobre-mim .txt-sobre{
-color: #ededed;
-
-
-}
-.sobre-mim img{
-    border-radius: 40px;
-}
-.sobre-mim .txt-sobre h2{
-font-size: 40px;
-line-height: 40px;
-margin-bottom: 30px;
-}
-.sobre-mim .txt-sobre h2 span{
-    display:block ;
+    width: 55%;
+margin-left: 300px;
+animation: flutuar 2s ease-in-out infinite alternate;
+position: relative;
 }

@@ -659,7 +659,7 @@ transition: .2s;
     .home .flex{
         flex-direction: column-reverse;
     }
- .flutuante{empty-cells: hide;}
+ .flutuante{display: none;}
  .conteudo-home{
     text-align: center;
 

@@ -659,7 +659,7 @@ transition: .2s;
     .home .flex{
         flex-direction: column-reverse;
     }
- .flutuante{display:none;}
+ .flutuante{empty-cells: hide;}
  .conteudo-home{
     text-align: center;
 
@@ -688,23 +688,23 @@ height: 0;
 position: relative;
 }
 .conteudo-home{
-  margin-top: 30px  ;
+  margin-top:-500px  ;
 
 }
 .especialidades{
-    margin-top: -150px;  
+    margin-top: -700px;  
 }
 .header a{
     font-size: 50px;
 align-items: center;
 justify-content: center;
-margin-left: 210px;
+margin-left: 300px;
 }
 .botao{
     margin-left:210px ;
 }
 .especialidades-box i{
-margin-left: 250px;
+margin-left: 210px;
 margin-bottom: 18px;
 }
 }

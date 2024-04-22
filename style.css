@@ -93,13 +93,14 @@ align-items: center;
 padding: 0 10%;
 }
 .conteudo-home{
-max-width: 600px;
+margin-top: 43px;
+    max-width: 600px;
 }
 .especialidades h2{padding: 50px;
 margin-top: 100px;
 }
 .conteudo-home h1{
-font-size:56px;
+font-size:50px;
 font-weight: 700;
 line-height: 1.2;
 position: relative;

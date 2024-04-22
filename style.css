@@ -405,8 +405,8 @@ text-align: center;
 }
 .conteudo-sobre p {
 font-size: 1.6rem;
-margin-left:600px;
-margin-right:600px ;
+margin-left:400px;
+margin-right:400px ;
 
 }
 
@@ -632,9 +632,7 @@ width: 100%;
 color:#081b29 ;
 transition: .5s;
 }
-html{
-    scroll-behavior:smooth ;
-}
+
 header.rolagem {
    opacity: 100%;
     background-color: #1b4557;
@@ -651,3 +649,39 @@ section.about .redes_sociais-social a i, button {
 transition: .2s;
     
     }
+    @media screen and ( max-width:1200px) {
+        
+        .navbar{
+            display: none;
+        }
+    .flex{flex-direction: column;}
+    .home .flex{
+        flex-direction: column-reverse;
+    }
+ .flutuante{display:none;}
+ .conteudo-home{
+    text-align: center;
+
+}
+.conteudo-sobre p{
+   font-size: 20px; ;
+   margin: -1;
+}
+.especialidades-box p{
+font-size: 20px;
+}
+.fundo{
+    margin: 100px;
+}
+.footer-text p{
+font-size: 10px;
+}
+}
+.footer-iconTop  {
+    width: 0;
+height: 0;
+position: relative;
+}
+ 
+    
+    .flex{display: flex;}

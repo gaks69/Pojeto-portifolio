@@ -178,7 +178,8 @@ height: 50px;
     background: #081b29;
     }
 .botao a{
-position: relative;
+display: flex;
+    position: relative;
     display: inline-flex;
 justify-content: center;
 align-items: center;
@@ -663,6 +664,10 @@ transition: .2s;
     text-align: center;
 
 }
+.conteudo-home p{
+  font-size: 20px;
+
+}
 .conteudo-sobre p{
    font-size: 20px; ;
    margin: -1;
@@ -676,12 +681,33 @@ font-size: 20px;
 .footer-text p{
 font-size: 10px;
 }
-}
+
 .footer-iconTop  {
     width: 0;
 height: 0;
 position: relative;
 }
- 
+.conteudo-home{
+  margin-top: 30px  ;
+
+}
+.especialidades{
+    margin-top: -150px;  
+}
+.header a{
+    font-size: 50px;
+align-items: center;
+justify-content: center;
+margin-left: 210px;
+}
+.botao{
+    margin-left:210px ;
+}
+.especialidades-box i{
+margin-left: 250px;
+margin-bottom: 18px;
+}
+}
     
-    .flex{display: flex;}
+
+.flex{display: flex;}

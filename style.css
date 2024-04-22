@@ -414,9 +414,10 @@ margin-right:600px ;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: none;
-background-color:#08abf0;
-    font-size: 30px;
+    border:solid 3px #08abf0;
+background-color:#081b29;
+color: #08abf0;   
+font-size: 30px;
 cursor: pointer;     
 margin: 0 8px;
 }
@@ -631,4 +632,22 @@ width: 100%;
 color:#081b29 ;
 transition: .5s;
 }
+html{
+    scroll-behavior:smooth ;
+}
+header.rolagem {
+   opacity: 100%;
+    background-color: #1b4557;
+padding: 20px 4%;
+}
+section.about .redes_sociais-social a i:hover, button:hover {
+transform: scale(1.20);
+color:#081b29;
+background-color:#08abf0;
 
+
+}
+section.about .redes_sociais-social a i, button {
+transition: .2s;
+    
+    }

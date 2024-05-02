@@ -19,7 +19,7 @@ color: #ededed;
 top: 0;
 left: 0;
 width: 100%;
-padding: 25px 10%;
+padding: 5px 10%;
 background:#081b29 ;
 display:flex ;
 justify-content: space-between;
@@ -27,6 +27,7 @@ align-items:center ;
 z-index: 100;
 display: flex;
 transition: .3s;
+
 }
 .header::before{
     content: '';
@@ -50,7 +51,8 @@ padding: 0 10px;
 color: #ededed;
 text-decoration: none;
 font-weight: 600;
-
+margin-top:30px ;
+float: right;
 }
 .header.sticky{
     background: #ededed;
@@ -155,6 +157,9 @@ justify-content: space-between;
 width: 345px;
 height: 50px;
 }
+html{
+    scroll-behavior: smooth;
+}
 .conteudo-home .botao::before{
     content: '';
     position: absolute;
@@ -221,7 +226,6 @@ transition: .5s;
 }
 
 .redes_sociais{
-
 position: absolute;
 bottom: 120px;
 width: 170px;
@@ -349,7 +353,7 @@ gap: 60px;
 
     width: 55%;
 margin-left: 300px;
-animation: flutuar 2s ease-in-out infinite alternate;
+
 position: relative;
 }
 span{
@@ -512,7 +516,9 @@ width: 100%;
     color: #08abf0;
 }
 .contato{
-    min-height: auto;
+    margin-left: 270px;
+    width: 1000px;
+    height: 1000px;
 padding-bottom: 7rem;
 }
 .contato form{
@@ -590,15 +596,15 @@ resize: none;
     cursor: pointer;
 }
 .footer{
-display: flex;
+    display: flex;
 justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
-padding: 2rem 9%;
+padding: 1rem 9%;
 background:#08aaf015 ;
 }
 .footer-text p{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 .footer-iconTop {
 position: relative;
@@ -629,6 +635,7 @@ width: 100%;
 
 
 }
+
 .footer-iconTop a i{
     font-size: 2.4rem;
 color:#081b29 ;
@@ -638,7 +645,7 @@ transition: .5s;
 header.rolagem {
    opacity: 100%;
     background-color: #1b4557;
-padding: 20px 4%;
+padding: 5px 4%;
 }
 section.about .redes_sociais-social a i:hover, button:hover {
 transform: scale(1.20);
@@ -712,3 +719,230 @@ margin-bottom: 18px;
     
 
 .flex{display: flex;}
+@keyframes square-animation {
+    0% {
+     left: 0;
+     top: 0;
+    }
+   
+    10.5% {
+     left: 0;
+     top: 0;
+    }
+   
+    12.5% {
+     left: 32px;
+     top: 0;
+    }
+   
+    23% {
+     left: 32px;
+     top: 0;
+    }
+   
+    25% {
+     left: 64px;
+     top: 0;
+    }
+   
+    35.5% {
+     left: 64px;
+     top: 0;
+    }
+   
+    37.5% {
+     left: 64px;
+     top: 32px;
+    }
+   
+    48% {
+     left: 64px;
+     top: 32px;
+    }
+   
+    50% {
+     left: 32px;
+     top: 32px;
+    }
+   
+    60.5% {
+     left: 32px;
+     top: 32px;
+    }
+   
+    62.5% {
+     left: 32px;
+     top: 64px;
+    }
+   
+    73% {
+     left: 32px;
+     top: 64px;
+    }
+   
+    75% {
+     left: 0;
+     top: 64px;
+    }
+   
+    85.5% {
+     left: 0;
+     top: 64px;
+    }
+   
+    87.5% {
+     left: 0;
+     top: 32px;
+    }
+   
+    98% {
+     left: 0;
+     top: 32px;
+    }
+   
+    100% {
+     left: 0;
+     top: 0;
+    }
+   }
+   
+   .loader {
+    float:left ;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    transform: rotate(45deg);
+   }
+   
+   .loader-square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    margin: 2px;
+    border-radius: 0px;
+    background: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: square-animation 10s ease-in-out infinite both;
+   }
+   
+   .loader-square:nth-of-type(0) {
+    animation-delay: 0s;
+   }
+   
+   .loader-square:nth-of-type(1) {
+    animation-delay: -1.4285714286s;
+   }
+   
+   .loader-square:nth-of-type(2) {
+    animation-delay: -2.8571428571s;
+   }
+   
+   .loader-square:nth-of-type(3) {
+    animation-delay: -4.2857142857s;
+   }
+   
+   .loader-square:nth-of-type(4) {
+    animation-delay: -5.7142857143s;
+   }
+   
+   .loader-square:nth-of-type(5) {
+    animation-delay: -7.1428571429s;
+   }
+   
+   .loader-square:nth-of-type(6) {
+    animation-delay: -8.5714285714s;
+   }
+   
+   .loader-square:nth-of-type(7) {
+    animation-delay: -10s;
+   }
+   .logo_{
+position: relative;
+display: flex;
+
+   }
+   .card {
+
+    width: fit-content;
+    height: fit-content;
+    background-color: #081b29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width:62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+.conatainerFive:hover{
+    background-color:black;
+    transition-duration: .3s;
+
+
+  }
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  

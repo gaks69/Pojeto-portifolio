@@ -101,6 +101,7 @@ margin-top: 43px;
 .especialidades h2{padding: 50px;
 margin-top: 100px;
 }
+
 .conteudo-home h1{
 font-size:50px;
 font-weight: 700;
@@ -309,6 +310,8 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 }
+
+
 h2{
     color: #ededed;
     font-size: 38px;
@@ -520,6 +523,7 @@ width: 100%;
     align-self: center;
     align-content: center;
     align-items: center;
+    margin-left: 530px;
     width: 1000px;
     height: 1000px;
 padding-bottom: 7rem;

@@ -516,7 +516,10 @@ width: 100%;
     color: #08abf0;
 }
 .contato{
-    margin-left: 270px;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
     width: 1000px;
     height: 1000px;
 padding-bottom: 7rem;
